@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #31363F;
+}
+
+#editor {
+  width: 100%;
+  height: 100%;
+  background-color: #222831;
+}
+
+#connections-container {
+  width: 100%;
+  height: 100%;
+  background-color: #222831;
+}
+
+.cmp {
+  margin-bottom: 8px;
+  padding: 4px;
+  border: 1px solid gray;
+  color: #EEEEEE;
+  background-color: #222831;
+  border-radius: 2px;
+}
